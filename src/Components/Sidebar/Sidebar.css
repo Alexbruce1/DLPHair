@@ -1,0 +1,43 @@
+.sidebar-main {
+  background: #444;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 25rem;
+}
+
+.close-button {
+  height: 3rem;
+  margin: 1rem 1rem 1rem 21rem;
+  width: 3rem;
+}
+
+.close-button:hover {
+  filter: invert(90%);
+}
+
+.sidebar-container {
+  /* background-color: green; */
+  height: 85%;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.sidebar-option {
+  color: #f2f2f2;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 4rem;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+  text-indent: 2rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.sidebar-option:hover {
+  background: #f2f2f2;
+  color: #444;
+
+}

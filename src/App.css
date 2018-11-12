@@ -1,32 +1,53 @@
+* {
+  outline: none;
+  transition-duration: .3s;
+}
+
 .App {
-  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 8rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.about-blurb {
+  background-color: #f2f2f2;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 2rem 4rem;
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.about-description {
+  font-size: 1.5rem;
+  text-align: justify;
+  text-indent: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+strong {
+  color: darkcyan;
+  font-size: 1.75rem;
+  font-style: italic;
+  line-height: 120%;
+  padding-top: 1rem;
+}
+
+.contact-buttons {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 2rem auto 0;
+  width: 100%;
+}
+
+.contact-button {
+  cursor: pointer;
+  filter: invert(25%);
+  height: 3rem;
+}
+
+.contact-button:hover {
+  filter: invert(0%);
 }
