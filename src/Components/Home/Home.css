@@ -1,0 +1,86 @@
+* {
+  color: #222;
+}
+
+.home-main {
+  text-align: center;
+  width: 100%;
+}
+
+.home-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 6rem;
+  margin: 0;
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.home-main-image {
+  border-radius: 10px;
+  height: 30rem;
+  margin: 3rem 0;
+}
+
+.review-container {
+  background-color: #f2f2f2;
+  min-height: 15rem;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.inner-review-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.review {
+  width: 25%;
+}
+
+.review-text {
+  font-size: 1.25rem;
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.star-img {
+  height: 1rem;
+}
+
+.publications {
+  min-height: 15rem;
+  padding: 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  margin: 1rem 0 3rem;
+}
+
+.publication-image-container {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  width: 80%;
+}
+
+.publication-image {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.bottom-blur {
+  background: linear-gradient(to bottom, transparent, #fff);
+  bottom: 0;
+  height: 10rem;
+  position: fixed;
+  width: 200%;
+}

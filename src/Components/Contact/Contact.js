@@ -50,17 +50,11 @@ const Contact = () => {
           <input
             className='contact-input'
             type='text'
-            placeholder='Subject' 
-          />
-          {/* <textarea className='contact-info'></textarea> */}
-          <input
-            className='contact-input'
-            type='text'
             placeholder='Message' 
           />
           <input
             type='submit'
-            className='contact-input'
+            className='contact-input-submit'
             value='submit'
           />
         </form>

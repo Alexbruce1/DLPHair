@@ -13,7 +13,7 @@ const Sidebar = (props) => {
         onClick={props.expandLeftMenu}
       />
       <div className='sidebar-container'>
-      
+
         <NavLink
           className='sidebar-option'
             to='/about'>
@@ -34,29 +34,15 @@ const Sidebar = (props) => {
           </div>
         </NavLink>
 
-        <div
+        <NavLink
           className='sidebar-option'
-          onClick={props.expandLeftMenu}>
-          Option 3
-        </div>
-
-        <div
-          className='sidebar-option'
-          onClick={props.expandLeftMenu}>
-          Option 4
-        </div>
-
-        <div
-          className='sidebar-option'
-          onClick={props.expandLeftMenu}>
-          Option 5
-        </div>
-
-        <div
-          className='sidebar-option'
-          onClick={props.expandLeftMenu}>
-          Option 6
-        </div>
+          to='/portfolio'>
+          <div
+            className='sidebar-option'
+            onClick={props.expandLeftMenu}>
+            Portfolio
+          </div>
+        </NavLink>
 
       </div>
     </div>
