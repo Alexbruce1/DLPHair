@@ -1,0 +1,12 @@
+.portfolio-main {
+  background-color: #f2f2f2;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 2rem 4rem;
+  text-align: center;
+  width: 50%;
+}
+
+.inatagram-embed {
+  background-color: green;
+}
